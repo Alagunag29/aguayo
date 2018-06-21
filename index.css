@@ -69,3 +69,40 @@ body {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
+
+.content-image {
+    position: relative;
+    text-align: left;
+}
+.text-image {
+    position: absolute;
+    top: 20%;
+    bottom: 50%;
+}
+
+img {
+    width: 100%;
+}
+
+.texto {
+    margin: 0;
+    background-color: #FFF;
+    margin-bottom: 3px;
+    font-size: 3.5rem;
+    padding-left: 40px;
+    font-weight: bold;
+    display: inline-block;
+    word-spacing: 8px;
+    letter-spacing: 2px;
+}
+
+.texto:nth-last-of-type(3){
+    padding-right: 40px;
+}
+.texto:nth-last-of-type(2){
+    padding-right: 55px;
+}
+.texto:nth-last-of-type(1){
+    padding-right: 55px;
+}
