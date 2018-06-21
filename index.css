@@ -106,3 +106,25 @@ img {
 .texto:nth-last-of-type(1){
     padding-right: 55px;
 }
+
+.container-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 5rem ;
+    margin-bottom: 0;
+}
+
+.title span {
+    color: #ED8671;
+}
+
+.subtitle {
+    margin: 0;
+    color: #636363;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
