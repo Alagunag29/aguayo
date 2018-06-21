@@ -141,31 +141,77 @@ img {
 .content-details {
     display: flex;
     justify-content: space-between;
-    padding: 10px 0;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 17px;
+    border-bottom: 2px solid #525252;
+}
+
+.container-name-product {
+    margin-right: 10px;
+}
+
+.name-product {
+    font-weight: bold;
+    font-size: 1.1rem;
 }
 
 .container-talla {
     margin-left: 10px;
 }
 
-.container-talla span {
+.talla-product {
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
     font-size: 1.8rem;
-    font-family: 'Roboto Thin', arial;
+    font-family: 'Roboto', sans-serif;
     height: 50px;
     width: 50px;
     margin-right: 10px;
     color: #FFF;
+    font-weight: bold;
 }
 
+.content-info {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1.5px solid #525252;
+
+}
+
+.text-info {
+    width: 65%;
+}
+
+.preci-product {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.info-product {
+    font-weight: 500;
+}
 .content-icon {
-    height: 50px;
+    display: flex;
+    justify-content: center;
 }
 
-.content-icon img {
-    height:
+.icon-profile {
+    background-image: url('./assets/profile.png');
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border-radius: 50%;
+}
+
+.icon-profile{
+
 }
